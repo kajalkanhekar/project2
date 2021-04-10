@@ -143,6 +143,118 @@ body{
     height: 180px;
 	
 }
+.subnav{
+	width:350px;
+	height:40px;
+	margin:0px auto;
+}
+
+.subnav ul{
+	margin:0px;
+	padding:0px;
+}
+
+.subnav ul li{
+	list-style:none;
+	float:left;
+	width:65px;
+	text-transform:uppercase;
+	font-size:12px;
+	line-height:40px;
+}
+
+.subnav ul li a{
+	color:black;
+	text-decoration:none;
+}
+
+.subnav ul li:first-child{
+	   width:20px;   
+ }
+.subnav ul li:nth-child(2){
+	   width:38px;   
+ }
+.subnav ul li:nth-child(3){
+	   width:47px;   
+ }
+.subnav ul li:nth-child(4){
+	width:72px;
+}
+.subnav ul li:last-child{
+	       float:right;
+ }
+ .block{
+	 width:250px;
+	 height:350px;
+	 /* background-color:pink; */
+	margin:20px auto 0px;
+	border:1px solid #f8f8f8;
+	border-radius:10px;
+	/* display:table; */
+	/* margin-top:20px; */
+ }
+ 
+ .icon{
+	 width:50px;
+	 margin:0px auto;
+	 float:left;
+	text-align:center;
+ }
+ .icon i{
+	 display:block;
+	margin: 15px;
+	 
+ }
+ .vase{
+	 width: 190px;
+	 margin:0px auto;
+	 float:left;
+	 margin-left:10px;
+ }
+ .vase img{
+display: block;
+  width: 100%;
+  height: 180px;
+  border-radius: 0px 10px 0px 0px;
+ }
+
+.block-text{
+	width:250px;
+	margin:0px auto;
+	text-align:center;
+} 
+ .block-text h6{
+	 font-size:20px;
+	 text-transform:capitalize;
+     margin: 25px 0px 0px 0px;
+ }
+ .block-text p{
+	 font-size:15px;
+     margin: 5px 0px 0px 0px;
+	 font-weight:bold;
+ }
+ .block-horizontal-line{
+	 width:200px;
+	 height:1px;
+	 margin:25px auto;
+	 background-color:#f1f1f1;
+ }
+ .block-text h4{
+	 font-size:15px;
+	 text-transform:capitalize;
+     margin:  0px;
+	 font-weight:normal;
+	 
+ }
+.block-text h4 a{
+	text-decoration:none;
+	color:black;
+}
+.block-text h4 a:hover{
+	color:gray;
+}
+
+
 
 
 
@@ -262,9 +374,25 @@ body{
             height: 261px;
 			
 		}
-		 
- 
- 
+		 .subnav ul li{
+		width:80px;
+		font-size:15px;
+		
+		}
+        .subnav ul li:nth-child(4){
+	       width:95px;
+         }
+		 .subnav ul li:last-child{
+	       float:right;
+         }
+	    .subnav ul li:nth-child(2){
+	       width:60px;
+         }
+          .subnav ul li:first-child{
+	   width:50px;   
+ }
+
+   
 }
 
 @media(min-width:992px){
@@ -314,12 +442,25 @@ body{
 		.image{
 			margin: 37px 90px 0px 0px;
 			position:absolute;
-			top: 10px;
-		    right: 60px;
+			top: 46px;
+            right: 220px;
 		}
 		.image img{
-			width: 211px;
-            height: 261px;
+			transform:scale(1.4);
 			
 		}
+		 .subnav ul li{
+		width:85px;
+		font-size:18px;
+		
+		}
+        .subnav ul li:nth-child(4){
+	       width:115px;
+         }
+
+        .subnav ul li:last-child{
+	       float:right;
+		   width:100px;
+         }
+	   
 }
